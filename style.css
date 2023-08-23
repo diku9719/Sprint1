@@ -1,0 +1,234 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.banner img.active {
+  opacity: 1;
+}
+
+.image1 { animation: fade 9s infinite; }
+.image2 { animation: fade 9s infinite 3s; }
+.image3 { animation: fade 9s infinite 6s; }
+
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  20%, 80% { opacity: 1; }
+}
+.categories {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.category-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+.best-selling {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.product-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  color: #f39c12;
+}
+
+.add-to-cart-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h2{
+  text-align: center;
+  padding:10px;
+}
+.features {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.feature-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.feature-paragraph {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.product-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  color: #f39c12;
+}
+.blog-section {
+  padding: 50px 0;
+}
+
+.blog-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-img {
+  max-width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+}
+
+.blog-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-paragraph {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.newsletter-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.newsletter-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.subscribe-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(35, 126, 71);
+  color: white;
+  padding: 30px 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+.footer-links li a{
+  color:#ccc;
+  text-decoration: none;
+}
+
+.social-icons {
+  font-size: 24px;
+  margin-right: 10px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .categories {
+    padding: 30px 0;
+  }
+
+  .category-card {
+    margin-bottom: 20px;
+  }
+  .best-selling {
+    padding: 30px 0;
+  }
+
+  .product-card {
+    margin-bottom: 20px;
+  }
+  .blog-section {
+    padding: 30px 0;
+  }
+}
